@@ -1,0 +1,42 @@
+:host{
+    width: 97dvw;
+    height: 98dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    animation: fadeIn 3s linear;
+    opacity: 1;
+}
+
+h2{
+    animation: fadeIn2 5s linear;
+    opacity: 1;
+}
+
+@keyframes fadeIn2 {
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
